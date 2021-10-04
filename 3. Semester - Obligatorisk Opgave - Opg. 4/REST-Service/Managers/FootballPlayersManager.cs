@@ -38,7 +38,7 @@ namespace REST_Service.Managers
 
             if (footballplayer == null)
             {
-                throw new ArgumentOutOfRangeException("Shirt Number not found");
+                throw new ArgumentOutOfRangeException("Shirt Number is not found");
             }
             return footballplayer;
         }

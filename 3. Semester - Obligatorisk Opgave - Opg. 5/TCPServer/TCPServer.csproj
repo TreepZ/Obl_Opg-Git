@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="C-Sharp Unit Test">
+      <HintPath>..\..\3. Semester - Obligatorisk Opgave - Opg. 1\C-Sharp Unit Test\bin\Debug\net5.0\C-Sharp Unit Test.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

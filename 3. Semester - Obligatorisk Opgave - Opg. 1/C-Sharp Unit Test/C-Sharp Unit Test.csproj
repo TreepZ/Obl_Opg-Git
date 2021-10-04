@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>C_Sharp_Unit_Test</RootNamespace>
+  </PropertyGroup>
+
+</Project>

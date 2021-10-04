@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp Unit Test", "C-Sharp Unit Test.csproj", "{2AEF9AE4-7B79-45D6-9CD2-76AF6FD8D605}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C-Sharp Unit TestTests", "..\C-Sharp Unit TestTests\C-Sharp Unit TestTests.csproj", "{EBD63C7E-B67C-4A65-B77F-56325CFAD158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AEF9AE4-7B79-45D6-9CD2-76AF6FD8D605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AEF9AE4-7B79-45D6-9CD2-76AF6FD8D605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AEF9AE4-7B79-45D6-9CD2-76AF6FD8D605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AEF9AE4-7B79-45D6-9CD2-76AF6FD8D605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD63C7E-B67C-4A65-B77F-56325CFAD158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD63C7E-B67C-4A65-B77F-56325CFAD158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD63C7E-B67C-4A65-B77F-56325CFAD158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD63C7E-B67C-4A65-B77F-56325CFAD158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {047D4271-3435-4F67-94EF-D6A2EF622DBE}
+	EndGlobalSection
+EndGlobal

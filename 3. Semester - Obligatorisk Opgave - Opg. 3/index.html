@@ -12,19 +12,29 @@
     <h1>String Manipulation</h1>
     <div id="app">
         <label for="string">String Manipulation</label>
-        <input v-model="Input" type="text" id="string" name="stringbitch"><br>
-        <button class="btn" @click="Function">Click</button>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th scope="col">Word</th>
-            </tr>
-        </thead>
+        <input v-model="Input" type="text" id="string" name="stringbitch">
+        <button class="button" @click="Function">Click</button>
+        <ol>
+            <li>{{Word}}</li>
+            <li>{{WordUpper}}</li>
+            <li>{{WordLower}}</li>
+        </ol>
+        <hr>
+    <table class="table table-striped col-6">
         <tbody>
+        <tr>
+            <td>1</td>
             <td>{{Word}}</td>
+        </tr>
+        <tr>
+            <td>2</td>
             <td>{{WordUpper}}</td>
+        </tr>
+        <tr>
+            <td>3</td>
             <td>{{WordLower}}</td>
-        </tbody>
+        </tr>
+    </tbody>
     </table>
 </div>
     <script src="index.js"></script>
